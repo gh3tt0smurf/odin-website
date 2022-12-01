@@ -5,7 +5,7 @@ body {
 
 ul {
     list-style-type: none;
-    font: 18px;
+    font-size: 18px;
     display: flex;
     gap: 12px;
 }
@@ -18,22 +18,21 @@ a:link {
 .b1bh {
     display: flex;
     margin-top: 50px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .b1lh {
-    display: flex;
-    flex-direction: column;
+   width: 85%;
 }
 
 .allcards {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .card1 {
-    background-color: #E5E7EB;
-    width: 400px;
+
 }
 
 .card {
@@ -111,10 +110,12 @@ img {
 .signup1 {
     background: #3882F6;
     color: white;
-    border-color: white;
+    border-color: #3882F6;
     border-radius: 4px;
     padding: 0px;
     font: roboto;
+    margin:auto;
+    width: 10%;
 }
 
 .signup2 {
@@ -147,7 +148,7 @@ img {
 .h3 {
     font-size: 18px;
     color: white;
-
+    margin: 20px 0px;
 }
 
 .b1 .h1 img {
@@ -169,4 +170,17 @@ img {
     color: white;
     font-size: 12px;
     font-style: normal;
+}
+
+.action {
+    font-weight: 700;
+}
+
+.action2 {
+    font-weight: 100;
+}
+
+.anthony {
+    height: 300px;
+    width: auto;
 }
